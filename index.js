@@ -9,8 +9,8 @@ app.use(cors());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-let smtp_login = process.env.SMTP_LOGIN || "yuryzhykharka@gmail.com";
-let smtp_password = process.env.SMTP_PASSWORD || "pgslvvnswxerudal";
+let smtp_login = process.env.SMTP_LOGIN || "---";
+let smtp_password = process.env.SMTP_PASSWORD || "---";
 
 
 // create reusable transporter object using the default SMTP transport
